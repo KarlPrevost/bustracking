@@ -1,0 +1,80 @@
+#busmap {
+    box-sizing: border-box;
+    margin: 0px auto;
+    height: 500px;
+    width: 500px; 
+    border: 3.5px white solid;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9edf3;
+}
+
+.entete {
+    text-align: center;
+    background-color: #005dab;
+    color: white;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    margin-left: 6px;
+}
+
+.backgroundblanc {
+    background-color: white;
+    margin: 5px;
+ 
+}
+
+.form1 {
+    padding: 10px;
+}
+
+.buttons {
+    background-color: #007f80;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons2 {
+    background-color: #fbba07;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .backgroundblanc {
+        margin: 5px auto;
+        width: 800px;
+    }    
+
+    #busmap {
+        margin: 0px auto;
+        height: 500px;
+        width: 800px; 
+    }
+  }
